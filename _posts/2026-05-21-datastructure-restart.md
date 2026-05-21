@@ -10,8 +10,8 @@ tags: [datastructure, cpp, HongLab]
 I have been studying Data Structures in C++, but I realized I need a stronger foundation. So, I am starting fresh today.
 
 <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 20px;">
-  <img width="389" height="589" alt="1" src="https://github.com/user-attachments/assets/a1a2eb9c-8ef4-48c0-951b-9f21191610fe" />
-  <img width="395" height="294" alt="2" src="https://github.com/user-attachments/assets/7490c361-c6aa-4e7a-a6ba-c1597959681d" />
+  <img alt="1" src="https://github.com/user-attachments/assets/a1a2eb9c-8ef4-48c0-951b-9f21191610fe" style="width: 48%; height: auto;" />
+  <img alt="2" src="https://github.com/user-attachments/assets/7490c361-c6aa-4e7a-a6ba-c1597959681d" style="width: 48%; height: auto;" />
 </div>
 
 ### Pointer & Reference Swap 
