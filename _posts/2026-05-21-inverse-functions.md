@@ -54,7 +54,7 @@ $$ \cos(\arctan(x)) = \frac{1}{\sqrt{1 + x^2}} $$
 ---
 
 <details>
-  <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 (클릭)</summary>
+  <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트</summary>
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px;">
     <img width="1264" height="1635" alt="1-1" src="https://github.com/user-attachments/assets/e6258125-e2b1-4632-838b-4d8fd6f2a125" />
     <img width="1264" height="1635" alt="1-2" src="https://github.com/user-attachments/assets/b98ff3d0-327e-49bf-bb3a-dcfc42efb6f4" />
