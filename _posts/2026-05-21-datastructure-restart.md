@@ -9,9 +9,10 @@ tags: [datastructure, cpp, HongLab]
 
 I have been studying Data Structures in C++, but I realized I need a stronger foundation. So, I am starting fresh today.
 
-![<img width="389" height="589" alt="1" src="https://github.com/user-attachments/assets/714b55e1-f315-408a-86a8-9cd7049f36fc" />
-]
-<img width="395" height="294" alt="2" src="https://github.com/user-attachments/assets/de16ab0d-cf16-4beb-81f7-ddc44f664938" />
+<div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 20px;">
+  <img src="[https://github.com/user-attachments/assets/714b55e1-f315-408a-86a8-9cd7049f36fc](https://github.com/user-attachments/assets/714b55e1-f315-408a-86a8-9cd7049f36fc)" alt="필기 1" style="width: 48%; border-radius: 8px;">
+  <img src="[https://github.com/user-attachments/assets/de16ab0d-cf16-4beb-81f7-ddc44f664938](https://github.com/user-attachments/assets/de16ab0d-cf16-4beb-81f7-ddc44f664938)" alt="필기 2" style="width: 48%; border-radius: 8px;">
+</div>
 
 ### Pointer & Reference Swap 
 
@@ -61,3 +62,4 @@ int main() {
 
     return 0;
 }
+```
