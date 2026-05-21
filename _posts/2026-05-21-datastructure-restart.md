@@ -1,5 +1,5 @@
 ---
-title: "[DataStructure] 1-1 sort"
+title: "[DataStructure] 1-1 Swap"
 date: 2026-05-21 20:20:00 +0900
 categories: [DataStructure]
 tags: [datastructure, cpp, HongLab]
@@ -8,11 +8,6 @@ tags: [datastructure, cpp, HongLab]
 ## I'm diving back into Data Structures with C++
 
 I have been studying Data Structures in C++, but I realized I need a stronger foundation. So, I am starting fresh today.
-
-<div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 20px;">
-  <img alt="1" src="https://github.com/user-attachments/assets/a1a2eb9c-8ef4-48c0-951b-9f21191610fe" style="width: 48%; height: auto;" />
-  <img alt="2" src="https://github.com/user-attachments/assets/7490c361-c6aa-4e7a-a6ba-c1597959681d" style="width: 48%; height: auto;" />
-</div>
 
 ### Pointer & Reference Swap 
 
@@ -63,3 +58,15 @@ int main() {
     return 0;
 }
 ```
+
+<br>
+
+---
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 (클릭)</summary>
+  <div style="display: flex; align-items: flex-start; gap: 10px; margin-top: 15px;">
+    <img alt="필기 1" src="https://github.com/user-attachments/assets/a1a2eb9c-8ef4-48c0-951b-9f21191610fe" style="flex: 1; min-width: 0; border-radius: 6px;" />
+    <img alt="필기 2" src="https://github.com/user-attachments/assets/7490c361-c6aa-4e7a-a6ba-c1597959681d" style="flex: 1; min-width: 0; border-radius: 6px;" />
+  </div>
+</details>
