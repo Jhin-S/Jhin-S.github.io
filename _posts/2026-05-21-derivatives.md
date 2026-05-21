@@ -1,6 +1,6 @@
 ---
 title: "2-1 Derivatives"
-date: 2026-05-21 22:30:00 +0900
+date: 2026-05-21 22:00:00 +0900
 categories: ["TUDelft Mastering Calculus", "Calculus I: From Functions to Differential Equations"]
 tags: [calculus, tudelft, math, derivative]
 math: true
