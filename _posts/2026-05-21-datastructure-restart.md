@@ -64,7 +64,7 @@ int main() {
 ---
 
 <details>
-  <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 (클릭)</summary>
+  <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">Jhin의 원본 손필기 노트</summary>
   <div style="display: flex; align-items: flex-start; gap: 10px; margin-top: 15px;">
     <img alt="필기 1" src="https://github.com/user-attachments/assets/a1a2eb9c-8ef4-48c0-951b-9f21191610fe" style="flex: 1; min-width: 0; border-radius: 6px;" />
     <img alt="필기 2" src="https://github.com/user-attachments/assets/7490c361-c6aa-4e7a-a6ba-c1597959681d" style="flex: 1; min-width: 0; border-radius: 6px;" />
