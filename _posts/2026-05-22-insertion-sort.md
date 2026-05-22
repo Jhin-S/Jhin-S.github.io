@@ -16,10 +16,10 @@ tags: [datastructure, cpp, algorithm, insertion_sort]
 (Let's look at the step-by-step sorting process of the array covered in the notes.)
 
 * **Initial:** `[4, 3, 2, 10, 12, 15, 6]`
-* **Step 1:** `3`을 `4` 앞으로 삽입 $\rightarrow$ `[3, 4, 2, 10, 12, 15, 6]`
-* **Step 2:** `2`를 `3, 4` 앞으로 삽입 $\rightarrow$ `[2, 3, 4, 10, 12, 15, 6]`
+* **Step 1:** `3`을 `4` 앞으로 삽입 → `[3, 4, 2, 10, 12, 15, 6]`
+* **Step 2:** `2`를 `3, 4` 앞으로 삽입 → `[2, 3, 4, 10, 12, 15, 6]`
 * **Step 3~5:** `10, 12, 15`는 이미 앞의 원소보다 크므로 제자리 유지
-* **Step 6:** `6`을 `10, 12, 15` 앞으로 삽입 $\rightarrow$ `[2, 3, 4, 6, 10, 12, 15]`
+* **Step 6:** `6`을 `10, 12, 15` 앞으로 삽입 → `[2, 3, 4, 6, 10, 12, 15]`
 
 ---
 
@@ -76,6 +76,6 @@ int main() {
 <details>
   <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 / View Original Handwritten Notes (Click)</summary>
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <img width="1264" height="1635" alt="1-4 Insertion Sort-1" src="https://github.com/user-attachments/assets/0e7fd428-464b-4922-921c-1726225e6547" />
+    <img width="1264" height="1635" alt="1-4 Insertion Sort-1" src="https://github.com/user-attachments/assets/360da35e-5707-4c50-863c-9f752f2aa234" />
   </div>
 </details>
