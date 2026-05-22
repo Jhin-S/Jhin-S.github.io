@@ -1,5 +1,5 @@
 ---
-title: "[DataStructure] 1-1 Swap"
+title: "1-1 Swap"
 date: 2026-05-21 20:20:00 +0900
 categories: [DataStructure]
 tags: [datastructure, cpp, HongLab]
