@@ -12,15 +12,18 @@ tags: [pandas, python, leetcode, dataframe]
 **[EN]** This is the first problem from LeetCode's "Introduction to Pandas" track. It covers the most fundamental process of converting a given 2D list (List of Lists), `student_data`, into a Pandas `DataFrame` object, which is the core data structure in Pandas. During the conversion, we must also assign the column names as `student_id` and `age`.
 
 ### Input & Output Example
-* **Input:**
-  `student_data = [[1, 15], [2, 11], [3, 11], [4, 20]]`
-* **Output:**
-  | student_id | age |
-  | :--- | :--- |
-  | 1 | 15 |
-  | 2 | 11 |
-  | 3 | 11 |
-  | 4 | 20 |
+
+**Input:**
+`student_data = [[1, 15], [2, 11], [3, 11], [4, 20]]`
+
+**Output:**
+
+| student_id | age |
+| :--- | :--- |
+| 1 | 15 |
+| 2 | 11 |
+| 3 | 11 |
+| 4 | 20 |
 
 ---
 
@@ -49,6 +52,6 @@ def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
 <details>
   <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 / View Original Handwritten Notes (Click)</summary>
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <img width="1264" height="1635" alt="1-1 Create a DataFrame from List-1" src="https://github.com/user-attachments/assets/f79954a3-54e5-415d-92cd-9548c647261b" />
+    <img width="1264" height="1635" alt="1-1 Create a DataFrame from List-1" src="https://github.com/user-attachments/assets/27c44200-dce9-4b22-a45b-e977285dbca9" />
   </div>
 </details>
