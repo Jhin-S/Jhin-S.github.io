@@ -35,7 +35,7 @@ tags: [pandas, python, leetcode, dataframe, melt, reshape]
 
 ---
 
-## 2. Python 코드 구현 (Implementation)
+## 2. Python 코드 구현 (Implementation) 
 
 **[KR]** Pandas의 `melt()` 메서드를 사용하면 여러 열의 이름들을 데이터 값으로 변환하여 새로운 열로 내릴 수 있습니다. `id_vars`를 기준으로 나머지 열들이 압축되어 내려옵니다.
 
