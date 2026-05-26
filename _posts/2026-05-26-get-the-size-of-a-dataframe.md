@@ -30,7 +30,7 @@ tags: [pandas, python, leetcode, dataframe, shape]
 
 **[KR]** DataFrame 객체 뒤에 `.shape` 속성을 호출하면 `(행의 개수, 열의 개수)` 형태의 튜플(Tuple)이 반환됩니다. 문제의 요구 조건이 `List[int]` 형태이므로, 이 튜플을 `list()` 함수로 감싸주기만 하면 완벽하게 해결됩니다.
 
-**[EN]** As correctly noted in your handwriting, accessing the `.shape` attribute of a DataFrame object returns a tuple in the format of `(number of rows, number of columns)`. Since the problem requires the return type to be a `List[int]`, simply wrapping this tuple with the `list()` function perfectly solves the problem.
+**[EN]** accessing the `.shape` attribute of a DataFrame object returns a tuple in the format of `(number of rows, number of columns)`. Since the problem requires the return type to be a `List[int]`, simply wrapping this tuple with the `list()` function perfectly solves the problem.
 
 ```python
 import pandas as pd
