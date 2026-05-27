@@ -13,7 +13,7 @@ tags: [pandas, python, leetcode, dataframe, cheatsheet, metacognition]
 
 ---
 
-## 2. Pandas 핵심 문법 요약 (Core Syntax Cheat Sheet)
+## 2. Pandas 핵심 문법 요약 (Core Syntax Cheat Sheet) 
 
 ### 2.1. 데이터 생성 및 확인 (Creation & Inspection)
 * **데이터프레임 생성 (Create):** `pd.DataFrame(data, columns=['col1', 'col2'])`
