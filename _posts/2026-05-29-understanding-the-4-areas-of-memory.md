@@ -1,6 +1,6 @@
 ---
 title: "Understanding the 4 Areas of Memory"
-date: 2026-05-29 17:45:00 +0900
+date: 2026-05-29 17:24:00 +0900
 categories: ["C++"]
 tags: [cpp, memory_management, code_segment, data_segment, heap, stack]
 ---
