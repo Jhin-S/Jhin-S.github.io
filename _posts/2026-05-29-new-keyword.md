@@ -1,6 +1,6 @@
 ---
 title: "new keyword"
-date: 2026-05-29 17:30:00 +0900
+date: 2026-05-29 17:23:00 +0900
 categories: ["C++"]
 tags: [cpp, memory_management, new, delete, dynamic_allocation, pointer]
 ---
