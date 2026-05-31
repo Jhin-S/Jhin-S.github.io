@@ -29,9 +29,9 @@ tags: [probability, sets, discrete_math, cardinality, demorgans_law, calculus_bo
 
 ## 3. 집합의 크기 (Cardinality)
 
-**[KR]** 집합 $A$의 크기(Cardinality)는 $|A|$로 표기하며, 집합에 포함된 원소의 개수를 의미합니다.
+**[KR]** 집합 $A$의 크기(Cardinality)는 $\vert A \vert$로 표기하며, 집합에 포함된 원소의 개수를 의미합니다.
 
-* **유한 집합 (Finite Set):** 원소의 개수가 유한한 집합입니다 ($|A| < \infty$). 예를 들어 $A=\{3,4\}$일 때 $|A|=2$ 입니다.
+* **유한 집합 (Finite Set):** 원소의 개수가 유한한 집합입니다 ($\vert A \vert < \infty$). 예를 들어 $A=\{3,4\}$일 때 $\vert A \vert = 2$ 입니다.
 * **가산 무한 집합 (Countably Infinite):** 자연수 집합처럼 하나씩 셀 수 있게 무한한 경우로, 이 크기를 알레프 제로($\aleph_0$)로 표기합니다. (예: $B=\{1,2,3,\dots\}$)
 * **비가산 무한 집합 (Uncountably Infinite):** 실수 구간 $[0,1]$ 내의 모든 수처럼 셀 수 없이 촘촘하게 무한한 경우로, 이 크기를 알레프 원($\aleph_1$)으로 표기합니다.
 
