@@ -1,6 +1,6 @@
 ---
 title: "1-2 The Joy of Sets [Optional Calculus BootCamp]"
-date: 2026-05-31 21:00:00 +0900
+date: 2026-05-31 20:50:00 +0900
 categories: ["GTx Probability/Random Variables", "Probability and Statistics I: A Gentle Introduction to Probability"]
 tags: [probability, sets, discrete_math, cardinality, demorgans_law, calculus_bootcamp]
 ---
