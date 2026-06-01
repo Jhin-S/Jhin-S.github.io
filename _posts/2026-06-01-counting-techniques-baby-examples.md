@@ -1,6 +1,6 @@
 ---
 title: "2-5 Counting Techniques: Baby Examples"
-date: 2026-06-01 23:00:00 +0900
+date: 2026-06-01 22:00:00 +0900
 categories: ["GTx Probability/Random Variables", "Probability and Statistics I: A Gentle Introduction to Probability"]
 tags: [probability, counting_techniques, addition_rule, multiplication_rule]
 ---
