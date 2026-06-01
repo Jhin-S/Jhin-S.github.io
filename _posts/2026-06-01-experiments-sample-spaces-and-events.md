@@ -7,7 +7,7 @@ tags: [probability, sample_space, events, experiment, discrete_math]
 
 ## 1. 실험과 표본 공간 (Experiments & Sample Spaces)
 
-**[KR]** 확률론에서 실험(Experiment)과 그로 인해 발생할 수 있는 모든 결과의 집합인 표본 공간(Sample Space)에 대한 정의입니다.
+**[KR]** 확률론에서 실험(Experiment)과 그로 인해 발생할 수 있는 모든 결과의 집합인 표본 공간(Sample Space)에 대한 정의입니다. 
 
 * **정의:** 특정 실험(E)과 관련된 표본 공간은 해당 실험에서 발생할 수 있는 모든 가능한 결과(Outcomes)들의 집합입니다. 기호로는 주로 S 또는 Ω(오메가)로 표기합니다.
 * **표본 공간의 예시:**
