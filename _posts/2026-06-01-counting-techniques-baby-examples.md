@@ -41,6 +41,6 @@ tags: [probability, counting_techniques, addition_rule, multiplication_rule]
 <details>
   <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 원본 손필기 노트 보기 / View Original Handwritten Notes (Click)</summary>
   <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; margin-top: 15px;">
-    <img width="100%" style="max-width: 600px; border-radius: 6px;" alt="2-5 Counting Techniques Baby Examples 1" src="이미지_링크를_여기에_넣어주세요_1" />
+    <img width="1264" height="1635" alt="2-5 Counting Techniques_ Baby Examples-1" src="https://github.com/user-attachments/assets/841c8632-ff08-4d0c-8e44-e71891f00bcb" />
   </div>
 </details>
