@@ -1,6 +1,6 @@
 ---
 title: "2-7 Counting Techniques: Combinations"
-date: 2026-06-01 23:55:00 +0900
+date: 2026-06-01 22:25:00 +0900
 categories: ["GTx Probability/Random Variables", "Probability and Statistics I: A Gentle Introduction to Probability"]
 tags: [probability, combinations, counting_techniques, binomial_theorem]
 ---
