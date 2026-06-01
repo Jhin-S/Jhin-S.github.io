@@ -9,7 +9,7 @@ tags: [probability, counting_techniques, addition_rule, multiplication_rule]
 
 **[KR]** 앞으로의 몇 가지 레슨에서는 단순 표본 공간(SSS)에서 특정 사건의 확률을 효율적으로 계산하기 위해, 사건에 포함된 원소의 개수를 세는(Counting) 방법들을 다룹니다. 이를 위해 다음의 유용한 규칙과 기법들을 순차적으로 살펴볼 예정입니다.
 
-1. 직관적인 기초 예제들 (Intuitive baby examples - 이번 포스팅)
+1. 직관적인 기초 예제들
 2. 순열 (Permutations)
 3. 조합 (Combinations)
 
