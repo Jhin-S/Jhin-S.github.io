@@ -1,6 +1,6 @@
 ---
 title: "1-2 Discrete Random Variables"
-date: 2026-06-05 17:35:00 +0900
+date: 2026-06-05 17:20:00 +0900
 categories: ["GTx Probability/Random Variables", "Probability and Statistics II: Random Variables – Great Expectations to Bell Curves"]
 tags: [probability, statistics, math, random-variable, pmf, binomial, poisson]
 math: true
