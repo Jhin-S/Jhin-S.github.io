@@ -8,7 +8,7 @@ math: true
 
 ## 1. 조건부 확률의 개념 (Idea of Conditional Probability)
 
-**[KR]** 조건부 확률의 핵심 아이디어는 **'추가적인 정보를 얻었을 때 확률을 업데이트(Update)'**하는 것입니다. 사건 $B$가 일어났다는 정보는 전체 표본 공간(Sample space)을 $B$라는 새롭고 제한된 공간으로 축소시키는 역할을 합니다. $P(B) > 0$일 때, 사건 $B$가 주어졌을 때 사건 $A$가 일어날 조건부 확률은 다음과 같이 정의됩니다.
+**[KR]** 조건부 확률의 핵심 아이디어는 **'추가적인 정보를 얻었을 때 확률을 업데이트(Update)'**하는 것입니다. 사건 $B$가 일어났다는 정보는 전체 표본 공간(Sample space)을 $B$라는 새롭고 제한된 공간으로 축소시키는 역할을 합니다. $P(B) > 0$일 때, 사건 $B$가 주어졌을 때 사건 $A$가 일어날 조건부 확률은 다음과 같이 정의됩니다.  
 
 **[EN]** The core idea of conditional probability is to **update probabilities as we obtain more information**. The information that event $B$ has occurred allows us to regard $B$ as a new, restricted sample space. If $P(B) > 0$, the conditional probability of $A$ given $B$ is defined as:
 
