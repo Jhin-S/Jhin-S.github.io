@@ -115,8 +115,8 @@ $$
 <details>
   <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 / View Original Handwritten Notes (Click)</summary>
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <img width="1264" height="1635" alt="2-12 Poker Problems-1" src="https://github.com/user-attachments/assets/bde15278-e345-4cd3-b4d2-a6fa69539a01" />
-    <img width="1264" height="1635" alt="2-12 Poker Problems-2" src="https://github.com/user-attachments/assets/cebf171e-17f7-4f62-8835-d4da25072fa2" />
-    <img width="1264" height="1635" alt="2-12 Poker Problems-3" src="https://github.com/user-attachments/assets/f0819dda-83fb-4048-acb1-2ac258a0f367" />
+    <img width="1264" height="1635" alt="2-12 Poker Problems-1" src="https://github.com/user-attachments/assets/15730244-198c-43a9-9968-2c05d01c05c5" />
+    <img width="1264" height="1635" alt="2-12 Poker Problems-2" src="https://github.com/user-attachments/assets/b2ee1a46-694a-4f1b-998e-1bc646bade43" />
+    <img width="1264" height="1635" alt="2-12 Poker Problems-3" src="https://github.com/user-attachments/assets/f75ac1b3-2dee-4931-8144-120983774bb0" />
   </div>
 </details>
