@@ -8,13 +8,11 @@ math: true
 
 ## 1. 기본 설정 (Basic Setup)
 
-**[KR]** 조커가 없는 표준 52장의 트럼프 카드 덱에서 무작위로 5장의 카드를 뽑습니다. 카드는 13개의 숫자(Rank: 2, 3, ..., Q, K, A)와 4개의 문양(Suit: ♠, ♡, ♢, ♣)으로 이루어져 있습니다. 전체 5장 카드 조합의 수는 다음과 같습니다. 
+**[KR]** 조커가 없는 표준 52장의 트럼프 카드 덱에서 무작위로 5장의 카드를 뽑습니다. 카드는 13개의 숫자(Rank: 2, 3, ..., Q, K, A)와 4개의 문양(Suit: ♠, ♡, ♢, ♣)으로 이루어져 있습니다. 전체 5장 카드 조합의 수는 다음과 같습니다.
 
-**[EN]** Draw 5 cards at random from a standard 52-card deck. A deck has 13 ranks (2, 3, ..., Q, K, A) and 4 suits (♠, ♡, ♢, ♣). The total number of possible 5-card hands is the sample space $|S|$.
+**[EN]** Draw 5 cards at random from a standard 52-card deck. A deck has 13 ranks (2, 3, ..., Q, K, A) and 4 suits (♠, ♡, ♢, ♣). The total number of possible 5-card hands is the sample space $\vert S \vert$.
 
-$$
-|S| = \binom{52}{5} = 2,598,960 
-$$
+$$\vert S \vert = \binom{52}{5} = 2,598,960$$
 
 ---
 
@@ -31,13 +29,9 @@ $$
 * 두 번째 페어의 문양 2개 고르기 (Select 2 suits for 2nd pair): $\binom{4}{2}$
 * 남은 1장의 카드를 뽑는 경우 (Select remaining card to complete the hand): 풀 하우스를 방지하기 위해 남은 카드 중 $44$장($52 - 8$)에서 선택.
 
-$$
-|\text{2 Pairs}| = \binom{13}{2} \times \binom{4}{2} \times \binom{4}{2} \times 44 = 123,552
-$$
+$$\vert \text{2 Pairs} \vert = \binom{13}{2} \times \binom{4}{2} \times \binom{4}{2} \times 44 = 123,552$$
 
-$$
-P(\text{2 Pairs}) = \frac{123,552}{2,598,960} \approx 0.0475
-$$
+$$P(\text{2 Pairs}) = \frac{123,552}{2,598,960} \approx 0.0475$$
 
 ### (b) 풀 하우스 (Full House)
 
@@ -49,13 +43,9 @@ $$
 * 페어(2장)의 문양 2개 고르기 (Select 2 suits for pair): $\binom{4}{2}$
 * 트리플(3장)의 문양 3개 고르기 (Select 3 suits for 3-of-a-kind): $\binom{4}{3}$
 
-$$
-|\text{Full House}| = 13 \times 12 \times \binom{4}{2} \times \binom{4}{3} = 3,744
-$$
+$$\vert \text{Full House} \vert = 13 \times 12 \times \binom{4}{2} \times \binom{4}{3} = 3,744$$
 
-$$
-P(\text{Full House}) = \frac{3,744}{2,598,960} \approx 0.00144
-$$
+$$P(\text{Full House}) = \frac{3,744}{2,598,960} \approx 0.00144$$
 
 ### (c) 플러시 (Flush)
 
@@ -66,13 +56,9 @@ $$
 * 1개의 문양 고르기 (Select a suit): $4$
 * 해당 문양 13장 중 5장 고르기 (Select 5 cards from that suit): $\binom{13}{5}$
 
-$$
-|\text{Flush}| = 4 \times \binom{13}{5} = 5,148
-$$
+$$\vert \text{Flush} \vert = 4 \times \binom{13}{5} = 5,148$$
 
-$$
-P(\text{Flush}) = \frac{5,148}{2,598,960} \approx 0.00198
-$$
+$$P(\text{Flush}) = \frac{5,148}{2,598,960} \approx 0.00198$$
 
 ### (d) 스트레이트 (Straight)
 
@@ -83,13 +69,9 @@ $$
 * 스트레이트가 시작되는 가장 낮은 숫자 고르기 (Select a starting point for the straight: A, 2, 3, ..., 10): $10$가지
 * 각각의 5장 카드에 대해 문양 1개씩 고르기 (Select a suit for each card): $4^5$
 
-$$
-|\text{Straight}| = 10 \times 4^5 = 10,240
-$$
+$$\vert \text{Straight} \vert = 10 \times 4^5 = 10,240$$
 
-$$
-P(\text{Straight}) = \frac{10,240}{2,598,960} \approx 0.00394
-$$
+$$P(\text{Straight}) = \frac{10,240}{2,598,960} \approx 0.00394$$
 
 ### (e) 스트레이트 플러시 (Straight Flush)
 
@@ -100,13 +82,9 @@ $$
 * 스트레이트가 시작되는 가장 낮은 숫자 고르기 (Select a starting point): $10$가지
 * 5장 모두 통일될 문양 1가지 고르기 (Select a suit): $4$가지
 
-$$
-|\text{Straight Flush}| = 10 \times 4 = 40
-$$
+$$\vert \text{Straight Flush} \vert = 10 \times 4 = 40$$
 
-$$
-P(\text{Straight Flush}) = \frac{40}{2,598,960} \approx 0.0000154
-$$
+$$P(\text{Straight Flush}) = \frac{40}{2,598,960} \approx 0.0000154$$
 
 <br>
 
