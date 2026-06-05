@@ -8,12 +8,12 @@ math: true
 
 ## 1. 기본 설정 (Basic Setup)
 
-**[KR]** 조커가 없는 표준 52장의 트럼프 카드 덱에서 무작위로 5장의 카드를 뽑습니다. 카드는 13개의 숫자(Rank: 2, 3, ..., Q, K, A)와 4개의 문양(Suit: ♠, ♡, ♢, ♣)으로 이루어져 있습니다. 전체 5장 카드 조합의 수는 다음과 같습니다.
+**[KR]** 조커가 없는 표준 52장의 트럼프 카드 덱에서 무작위로 5장의 카드를 뽑습니다. 카드는 13개의 숫자(Rank: 2, 3, ..., Q, K, A)와 4개의 문양(Suit: ♠, ♡, ♢, ♣)으로 이루어져 있습니다. 전체 5장 카드 조합의 수는 다음과 같습니다. 
 
 **[EN]** Draw 5 cards at random from a standard 52-card deck. A deck has 13 ranks (2, 3, ..., Q, K, A) and 4 suits (♠, ♡, ♢, ♣). The total number of possible 5-card hands is the sample space $|S|$.
 
 $$
-|S| = \binom{52}{5} = 2,598,960
+|S| = \binom{52}{5} = 2,598,960 
 $$
 
 ---
