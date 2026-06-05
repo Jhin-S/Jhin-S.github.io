@@ -21,6 +21,7 @@ $$
 ## 2. 포커 족보별 확률 계산 (Probabilities of Poker Hands)
 
 ### (a) 투 페어 (2 Pairs)
+
 **[KR]** 두 개의 숫자 쌍과 나머지 하나의 다른 숫자로 이루어진 패입니다. (예: A♠, A♡, 3♢, 3♣, 10♠) ※ 풀 하우스를 제외하기 위해 남은 한 장은 페어의 숫자와 달라야 합니다.
 
 **[EN]** A hand with two pairs and one distinct card. We must avoid drawing a full house.
@@ -39,6 +40,7 @@ P(\text{2 Pairs}) = \frac{123,552}{2,598,960} \approx 0.0475
 $$
 
 ### (b) 풀 하우스 (Full House)
+
 **[KR]** 같은 숫자 3장(Triple)과 같은 숫자 2장(Pair)으로 이루어진 패입니다. (예: A♣, A♠, 3♡, 3♢, 3♠)
 
 **[EN]** A hand consisting of a 3-of-a-kind and a pair.
@@ -56,6 +58,7 @@ P(\text{Full House}) = \frac{3,744}{2,598,960} \approx 0.00144
 $$
 
 ### (c) 플러시 (Flush)
+
 **[KR]** 5장의 카드가 모두 동일한 문양인 패입니다. (스트레이트 플러시 등 모든 종류의 플러시 포함)
 
 **[EN]** All 5 cards are from the same suit. (This includes all kinds of flushes, such as straight flushes).
@@ -72,6 +75,7 @@ P(\text{Flush}) = \frac{5,148}{2,598,960} \approx 0.00198
 $$
 
 ### (d) 스트레이트 (Straight)
+
 **[KR]** 5장의 카드가 문양에 상관없이 연속된 숫자를 이루는 패입니다. (예: 4, 5, 6, 7, 8)
 
 **[EN]** 5 cards of sequential rank, regardless of suit. (This includes all straights).
@@ -88,6 +92,7 @@ P(\text{Straight}) = \frac{10,240}{2,598,960} \approx 0.00394
 $$
 
 ### (e) 스트레이트 플러시 (Straight Flush)
+
 **[KR]** 5장의 카드가 연속된 숫자이면서, 문양도 모두 동일한 패입니다.
 
 **[EN]** 5 cards of sequential rank that are all of the same suit.
@@ -110,8 +115,8 @@ $$
 <details>
   <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 / View Original Handwritten Notes (Click)</summary>
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <img width="1264" height="1635" alt="2-12 Poker Problems-1" src="https://github.com/user-attachments/assets/ccf1e61d-3525-4eef-8e38-eb6f1c594101" />
-    <img width="1264" height="1635" alt="2-12 Poker Problems-2" src="https://github.com/user-attachments/assets/0ac88f10-d0b0-4f99-895f-a94f461a7c53" />
-    <img width="1264" height="1635" alt="2-12 Poker Problems-3" src="https://github.com/user-attachments/assets/bfde25c6-17f9-4355-a9b4-592ba7cd0957" />
+    <img width="1264" height="1635" alt="2-12 Poker Problems-1" src="https://github.com/user-attachments/assets/bde15278-e345-4cd3-b4d2-a6fa69539a01" />
+    <img width="1264" height="1635" alt="2-12 Poker Problems-2" src="https://github.com/user-attachments/assets/cebf171e-17f7-4f62-8835-d4da25072fa2" />
+    <img width="1264" height="1635" alt="2-12 Poker Problems-3" src="https://github.com/user-attachments/assets/f0819dda-83fb-4048-acb1-2ac258a0f367" />
   </div>
 </details>
