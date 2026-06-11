@@ -32,10 +32,16 @@ $$
 ### 대표적인 확률 분포의 MGF 도출 (Examples)
 1. **베르누이 분포 (Bernoulli Distribution):** $X \sim Bern(p)$
    성공(1) 확률이 $p$, 실패(0) 확률이 $q$일 때 기댓값의 정의를 적용합니다.
-   $$M_X(t) = E[e^{tX}] = e^{t \cdot 1}p + e^{t \cdot 0}q = pe^t + q$$
+   
+$$
+M_X(t) = E[e^{tX}] = e^{t \cdot 1}p + e^{t \cdot 0}q = pe^t + q
+$$
 
 2. **지수 분포 (Exponential Distribution):** $X \sim Exp(\lambda)$
-   $$M_X(t) = \int_{0}^{\infty} e^{tx} \lambda e^{-\lambda x} \,dx = \lambda \int_{0}^{\infty} e^{(t-\lambda)x} \,dx = \frac{\lambda}{\lambda - t} \quad (\text{단, } t < \lambda)$$
+   
+$$
+M_X(t) = \int_{0}^{\infty} e^{tx} \lambda e^{-\lambda x} \,dx = \lambda \int_{0}^{\infty} e^{(t-\lambda)x} \,dx = \frac{\lambda}{\lambda - t} \quad (\text{단, } t < \lambda)
+$$
 
 ---
 
@@ -46,20 +52,35 @@ $$
 **[EN]** By differentiating the MGF $k$ times with respect to $t$ and then evaluating it at $t=0$, we obtain exactly the $k$-th raw moment of $X$ ($E[X^k]$). This elegant principle is proven using the Taylor (Maclaurin) series expansion of $e^{tx}$ combined with the linearity of expectation.
 
 $$
-E[X^k] = \left. \frac{d^k}{dt^k} M_X(t) \right|_{t=0} = M_X^{(k)}(0)
+E[X^k] = \left[ \frac{d^k}{dt^k} M_X(t) \right]_{t=0} = M_X^{(k)}(0)
 $$
 
 **[증명 과정 요약 / Proof Sketch]**
 1. $e^{tX} = 1 + tX + \frac{(tX)^2}{2!} + \frac{(tX)^3}{3!} + \dots$ 로 급수 전개합니다.
 2. 양변에 기댓값 $E[\cdot]$를 취하고, 상수인 $t$를 기댓값 밖으로 빼냅니다.
-   $M_X(t) = 1 + tE[X] + \frac{t^2}{2!}E[X^2] + \frac{t^3}{3!}E[X^3] + \dots$
+   $$M_X(t) = 1 + tE[X] + \frac{t^2}{2!}E[X^2] + \frac{t^3}{3!}E[X^3] + \dots$$
 3. 이 식을 $t$에 대해 미분하면 상수항은 사라지고, $t=0$을 대입하면 첫 번째 항인 $E[X^k]$만 오롯이 남게 됩니다.
 
 ### MGF를 활용한 지수 분포의 분산 계산
 앞서 구한 지수 분포의 MGF $M_X(t) = \lambda(\lambda - t)^{-1}$ 를 연속으로 미분해 봅니다.
-* $E[X] = M_X'(0) = \left. \frac{\lambda}{(\lambda - t)^2} \right|_{t=0} = \frac{1}{\lambda}$
-* $E[X^2] = M_X''(0) = \left. \frac{2\lambda}{(\lambda - t)^3} \right|_{t=0} = \frac{2}{\lambda^2}$
-* $Var(X) = E[X^2] - (E[X])^2 = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \frac{1}{\lambda^2}$
+
+* **1차 적률 (평균):**
+  
+$$
+E[X] = M_X'(0) = \left[ \frac{\lambda}{(\lambda - t)^2} \right]_{t=0} = \frac{1}{\lambda}
+$$
+
+* **2차 적률:**
+  
+$$
+E[X^2] = M_X''(0) = \left[ \frac{2\lambda}{(\lambda - t)^3} \right]_{t=0} = \frac{2}{\lambda^2}
+$$
+
+* **분산:**
+  
+$$
+Var(X) = E[X^2] - (E[X])^2 = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} = \frac{1}{\lambda^2}
+$$
 
 ---
 
@@ -74,7 +95,10 @@ M_{aX+b}(t) = E[e^{t(aX+b)}] = e^{tb} E[e^{(at)X}] = e^{tb} M_X(at)
 $$
 
 * **예제:** $X \sim Exp(\lambda)$ 일 때, $Y = 3X + 2$ 의 MGF를 구해보면 다음과 같습니다.
-  $$M_Y(t) = e^{2t} M_X(3t) = e^{2t} \frac{\lambda}{\lambda - 3t}$$
+  
+$$
+M_Y(t) = e^{2t} M_X(3t) = e^{2t} \frac{\lambda}{\lambda - 3t}
+$$
 
 <br>
 
@@ -83,12 +107,12 @@ $$
 <details>
   <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 / View Original Handwritten Notes (Click)</summary>
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-1" src="https://github.com/user-attachments/assets/7be04ce1-fcb0-4ccf-9fb4-09e3640b78cd" />
-    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-2" src="https://github.com/user-attachments/assets/eeae05c9-1091-49a2-801f-56a7dd6d68b8" />
-    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-3" src="https://github.com/user-attachments/assets/a7a8f361-f297-4c78-9a2c-7ead75c3db74" />
-    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-4" src="https://github.com/user-attachments/assets/434dced5-2203-4b21-8979-5271ef46ac3a" />
-    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-5" src="https://github.com/user-attachments/assets/b0c0c9e0-1b65-41e1-9fbe-916bd24050fc" />
-    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-6" src="https://github.com/user-attachments/assets/193519d1-d7bf-4fc0-ab2b-9779b2bd8872" />
-    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-7" src="https://github.com/user-attachments/assets/79d63006-ba62-4a01-8260-76e1294902c4" />
+    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-1" src="https://github.com/user-attachments/assets/f3adfe37-7075-473d-b64b-4d49bd51b326" />
+    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-2" src="https://github.com/user-attachments/assets/70eb37b2-4422-4971-861f-f3bc674ef79c" />
+    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-3" src="https://github.com/user-attachments/assets/48b2df8c-9fb1-45ba-881e-1f22365e4c94" />
+    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-4" src="https://github.com/user-attachments/assets/7964d197-693f-4325-82dc-8ed94924b73b" />
+    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-5" src="https://github.com/user-attachments/assets/71270f31-f0e0-41ce-b998-5419fabaf51d" />
+    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-6" src="https://github.com/user-attachments/assets/a7ebedff-7ff7-41bb-a65d-749f7421006c" />
+    <img width="1264" height="1635" alt="1-8 Moment Generating Functions-7" src="https://github.com/user-attachments/assets/02c3afe9-041d-41a2-8baa-07934dfdf796" />
   </div>
 </details>
