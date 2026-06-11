@@ -31,4 +31,3 @@ Module2로 넘어가기 이전에 Module1의 내용을 정리하고 복습하였
     <img width="1264" height="1635" alt="Mastering Module 1-18" src="https://github.com/user-attachments/assets/9e3fba86-8b5f-4723-bbdc-e3e65a51fb8f" />
     <img width="1264" height="1635" alt="Mastering Module 1-19" src="https://github.com/user-attachments/assets/aef54c6b-17fc-4b1c-8e4e-79995bfa0ea4" />
   </div>
-</details>
