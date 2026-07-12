@@ -1,6 +1,6 @@
 ---
 title: "1-3 Geometric and Negative Binomial Distributions"
-date: 2026-07-12 14:00:00 +0900
+date: 2026-07-12 13:58:00 +0900
 categories: ["GTx Statistics, Confidence Intervals and Hypothesis Tests", "Probability and Statistics III: A Gentle Introduction to Statistics"]
 tags: [probability, statistics, math, geometric-distribution, negative-binomial, memoryless-property]
 math: true
