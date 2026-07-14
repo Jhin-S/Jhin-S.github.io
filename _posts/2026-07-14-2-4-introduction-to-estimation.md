@@ -1,6 +1,6 @@
 ---
 title: "2-4 Introduction to Estimation"
-date: 2026-07-14 17:00:00 +0900
+date: 2026-07-14 16:55:00 +0900
 categories: ["GTx Statistics, Confidence Intervals and Hypothesis Tests", "Probability and Statistics III: A Gentle Introduction to Statistics"]
 tags: [probability, statistics, estimation, point-estimator, statistic, parameters]
 math: true
