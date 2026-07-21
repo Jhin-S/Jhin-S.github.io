@@ -59,7 +59,7 @@ order: 4
 
 * **ISYE6739xIII: Probability and Statistics III: A Gentle Introduction to Statistics** (2026-06-29)
   * **발급 기관:** GTx
-  * **Certificate ID:** [934503fb865f47e79dd51c6646d64d38](https://courses.edx.org/certificates/934503fb865f47e79dd51c6646d64d38)
+  * **Certificate ID:** [934503fb865f47e79dfdd51c6646d38](https://courses.edx.org/certificates/934503fb865f47e79dfdd51c6646d38)
   
   ![Probability and Statistics III](/assets/img/cert_gt_prob3.png)
 
