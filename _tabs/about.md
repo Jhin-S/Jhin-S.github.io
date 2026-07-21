@@ -62,3 +62,9 @@ order: 4
   * **Certificate ID:** [934503fb865f47e79dd51c6646d64d38](https://courses.edx.org/certificates/934503fb865f47e79dd51c6646d64d38)
   
   ![Probability and Statistics III](/assets/img/cert_gt_prob3.png)
+
+* **ISYE6739xIV: Probability and Statistics IV: Confidence Intervals and Hypothesis Tests** (2026-07-21)
+  * **발급 기관:** GTx
+  * **Certificate ID:** [eb48792edfef4419a662ba9ea133c8c5](https://courses.edx.org/certificates/eb48792edfef4419a662ba9ea133c8c5)
+  
+  ![Probability and Statistics IV](/assets/img/cert_gt_prob4.png)
