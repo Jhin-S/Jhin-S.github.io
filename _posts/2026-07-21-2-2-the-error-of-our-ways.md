@@ -45,24 +45,24 @@ math: true
 ## 3. 오류의 확률과 검정력 (Probabilities of Errors and Power)
 
 **[KR]** 우리는 이 두 가지 오류가 발생할 확률을 통제하고 유지하고자 합니다.
-* 1종 오류가 발생할 확률은 $P(\text{Type I error}) = P(\text{Reject } H_0 | H_0 \text{ true}) \le \alpha$ 로 정의됩니다.
-* 2종 오류가 발생할 확률은 $P(\text{Type II error}) = P(\text{Fail to reject } H_0 | H_0 \text{ false}) \le \beta$ 로 정의됩니다.
+* 1종 오류가 발생할 확률은 $P(\text{Type I error}) = P(\text{Reject } H_0 \mid H_0 \text{ true}) \le \alpha$ 로 정의됩니다.
+* 2종 오류가 발생할 확률은 $P(\text{Type II error}) = P(\text{Fail to reject } H_0 \mid H_0 \text{ false}) \le \beta$ 로 정의됩니다.
 
 우리는 $\alpha$와 $\beta$를 직접 선택하며, 당연히 $\alpha + \beta < 1$ 이 되어야 합니다. 일반적으로 통계학에서는 1종 오류가 2종 오류보다 훨씬 더 치명적이고 나쁜 것으로 간주됩니다.
 
 **[EN]** We want to keep the probabilities of these errors under control.
-* The probability of a Type I error is expressed as $P(\text{Type I error}) = P(\text{Reject } H_0 | H_0 \text{ true}) \le \alpha$.
-* The probability of a Type II error is expressed as $P(\text{Type II error}) = P(\text{Fail to reject } H_0 | H_0 \text{ false}) \le \beta$.
+* The probability of a Type I error is expressed as $P(\text{Type I error}) = P(\text{Reject } H_0 \mid H_0 \text{ true}) \le \alpha$.
+* The probability of a Type II error is expressed as $P(\text{Type II error}) = P(\text{Fail to reject } H_0 \mid H_0 \text{ false}) \le \beta$.
 
 We choose $\alpha$ and $\beta$, and of course, we need to have $\alpha + \beta < 1$. Usually, a Type I error is considered to be much worse than a Type II error.
 
 **[KR] 핵심 정의 (Key Definitions):**
 * 1종 오류의 확률인 $\alpha$는 검정의 **'크기(Size)'** 또는 **'유의수준(Level of significance)'**이라고 부릅니다.
-* 가설 검정의 **'검정력(Power)'**은 $1 - \beta = P(\text{Reject } H_0 | H_0 \text{ false})$ 로 정의되며, 이 검정력이 높은 것은 매우 좋은 것입니다.
+* 가설 검정의 **'검정력(Power)'**은 $1 - \beta = P(\text{Reject } H_0 \mid H_0 \text{ false})$ 로 정의되며, 이 검정력이 높은 것은 매우 좋은 것입니다.
 
 **[EN] Key Definitions:**
 * The probability of a Type I error, $\alpha$, is called the **size** or **level of significance** of the test.
-* The **power** of a hypothesis test is defined as $1 - \beta = P(\text{Reject } H_0 | H_0 \text{ false})$, and it is good to have high power.
+* The **power** of a hypothesis test is defined as $1 - \beta = P(\text{Reject } H_0 \mid H_0 \text{ false})$, and it is good to have high power.
 
 <br>
 
@@ -71,6 +71,6 @@ We choose $\alpha$ and $\beta$, and of course, we need to have $\alpha + \beta <
 <details>
   <summary style="cursor: pointer; font-weight: bold; color: #0076ff; user-select: none;">📝 Jhin의 원본 손필기 노트 보기 / View Original Handwritten Notes (Click)</summary>
   <div style="display: flex; justify-content: center; margin-top: 15px;">
-    <img width="1264" height="1635" alt="2-2 The Error of Our Ways-1" src="https://github.com/user-attachments/assets/c7b9c9d4-afa6-47ca-b0f2-506d2ea924f5" />
+    <img width="1264" height="1635" alt="2-2 The Error of Our Ways-1" src="https://github.com/user-attachments/assets/2cf67f17-fd58-43bd-8c47-f5f57d19a58f" />
   </div>
 </details>
