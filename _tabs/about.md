@@ -19,7 +19,7 @@ order: 4
 
 * **MMFEC1X: Calculus I: From Functions to Differential Equations** (2026-05-06)
   * **발급 기관:** DelftX
-  * **Certificate ID:** [83b08ed9d614aa19e420db70c1b6bc7](https://courses.edx.org/certificates/83b08ed9d614aa19e420db70c1b6bc7)
+  * **Certificate ID:** [83b08ed9d6194aa19e420db70c1b6bc7](https://courses.edx.org/certificates/83b08ed9d6194aa19e420db70c1b6bc7)
   
   ![Calculus I](/assets/img/cert_delft_cal1.png)
 
@@ -59,7 +59,7 @@ order: 4
 
 * **ISYE6739xIII: Probability and Statistics III: A Gentle Introduction to Statistics** (2026-06-29)
   * **발급 기관:** GTx
-  * **Certificate ID:** [934503fb865f47e79dfdd51c6646d38](https://courses.edx.org/certificates/934503fb865f47e79dfdd51c6646d38)
+  * **Certificate ID:** [934503fb865f47e79d9fdd51c6646d38](https://courses.edx.org/certificates/934503fb865f47e79d9fdd51c6646d38)
   
   ![Probability and Statistics III](/assets/img/cert_gt_prob3.png)
 
