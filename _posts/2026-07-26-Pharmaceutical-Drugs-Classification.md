@@ -43,7 +43,7 @@ C:\Pharmaceutical Drugs Classification\main.ipynb 파일을 만든 후 본격적
 
 여담 (Hardware Setup)
 
-AI 공부를 시작하면서 GPU 장비 욕심에 RTX 5090 Laptop이 탑재된 노트북을 구매하였고, 이 장비를 통해 여러 프로젝트를 진행해왔습니다. 그러나 이번 프로젝트에서 버전 호환 문제가 몇 차례 발생하여, 미니 프로젝트임을 감안해 과감히 CPU로 학습을 진행하였습니다. 내용에는 전혀 달라질 것이 없으며 학습 시간에도 큰 무리가 없었습니다.
+최신 하드웨어(RTX 5090 Laptop) 로컬 환경에서 CUDA 버전 및 파이토치 호환성(Compatibility) 이슈가 몇 차례 발생했습니다. 이번 프로젝트는 이미지 해상도와 데이터 볼륨을 고려했을 때 CPU 연산만으로도 병목(Bottleneck) 없이 충분히 학습이 가능할 것으로 판단하여, 과감히 CPU 환경으로 전환해 프로젝트를 완수했습니다.
 
 ```python
 import torch
