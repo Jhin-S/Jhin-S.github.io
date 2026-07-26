@@ -150,9 +150,8 @@ for epoch in range(EPOCHS):
 
 print("학습 종료!")
 ```
-```text
 [첫 번째 셀의 결과]
-
+```text
 현재 사용 중인 디바이스: cpu
 총 데이터 개수: 10000
 클래스 종류: ['Alaxan', 'Bactidol', 'Bioflu', 'Biogesic', 'DayZinc', 'Decolgen', 'Fish Oil', 'Kremil S', 'Medicol', 'Neozep']
@@ -371,7 +370,7 @@ Speed: 3.2ms pre-process, 32.0ms inference, 0.8ms NMS per image at shape (10, 3,
 
 ## 6. 최종 결과 해석 (Final Interpretation)
 
-1. 학습 곡선 (Loss & Accuracy) 해석: "과적합(Overfitting)의 경계선"
+### 1. 학습 곡선 (Loss & Accuracy) 해석: "과적합(Overfitting)의 경계선"
 
 관찰 결과: Training Loss 그래프를 보면 1~9 Epoch 동안 손실값이 0.35에서 0.02 수준으로 매우 이상적으로 꾸준히 하락하지만, 10 Epoch에서 0.0490으로 반등하는 모습이 관찰됩니다. Validation Accuracy 역시 Epoch 9에서 99.30%로 정점을 찍은 후, 10 Epoch에서는 오히려 정확도가 96.85%로 급락하는 모습이 뚜렷하게 관찰됩니다.
 
@@ -379,7 +378,7 @@ Speed: 3.2ms pre-process, 32.0ms inference, 0.8ms NMS per image at shape (10, 3,
 
 분석 및 해결책: 이러한 수리적 근거를 바탕으로 최적의 모델 가중치는 Epoch 9에 형성되었다고 판단할 수 있으며, 향후 시스템 고도화 시 조기 종료(Early Stopping) 콜백을 적용하여 과적합을 제어해야한다.
 
-2. 오차 행렬 (Confusion Matrix) 해석: "진짜 문제는 Bioflu와 Neozep"
+### 2. 오차 행렬 (Confusion Matrix) 해석: "진짜 문제는 Bioflu와 Neozep"
 
 관찰 결과: 모델의 전체 정확도가 97%에 달하지만, 실무(물류 창고 등)에서는 '틀린 3%'로 인해 재고 오차가 발생합니다. 오차 행렬을 자세히 보면, 실제 정답이 Bioflu인 221개의 데이터 중 무려 25개가 Neozep으로 오분류되었습니다.
 
@@ -389,7 +388,7 @@ Speed: 3.2ms pre-process, 32.0ms inference, 0.8ms NMS per image at shape (10, 3,
 
 분석 및 해결책: Bioflu와 Neozep 간의 클래스 혼동 현상이 발견되었습니다. 이 문제를 해결하기 위해 두 약품 이미지에 대비(Contrast) 조절이나 컷아웃(Cutout) 등의 특정 데이터 증강 기법을 집중적으로 적용하여 두 클래스 간의 특징 공간(Feature Space)을 강제로 분리하는 실험을 추가로 진행해야 합니다.
 
-YOLOv5 객체 탐지 시도 (10개 클래스 샘플링을 통한 사전 타당성(Feasibility) 검증)
+### 3.YOLOv5 객체 탐지 시도 (10개 클래스 샘플링을 통한 사전 타당성(Feasibility) 검증)
 
 관찰 결과: 탐지 결과를 보면 의약품을 전혀 탐지하지 못하거나(no detections), 알약과 포장지를 kite(연), carrots(당근), frisbee(원반), sports ball(스포츠 공) 등 전혀 엉뚱한 객체로 잘못 인식하는 현상이 뚜렷하게 관찰되었습니다.
 
