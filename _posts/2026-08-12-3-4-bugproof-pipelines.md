@@ -1,6 +1,6 @@
 ---
 title: "3-4 Bugproof Pipelines"
-date: 2026-08-12 06:10:00 +0900
+date: 2026-08-12 06:00:00 +0900
 categories: ["PyTorch for Deep Learning Professional Certificate", "PyTorch: Fundamentals"]
 tags: [pytorch, deep-learning, machine-learning, data-augmentation, error-handling, de-normalization]
 math: true
