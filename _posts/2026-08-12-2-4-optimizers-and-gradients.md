@@ -1,6 +1,6 @@
 ---
 title: "2-4 Optimizers and Gradients"
-date: 2026-08-12 05:25:00 +0900
+date: 2026-08-12 05:21:00 +0900
 categories: ["PyTorch for Deep Learning Professional Certificate", "PyTorch: Fundamentals"]
 tags: [pytorch, deep-learning, machine-learning, optimizer, gradient-descent, adam, sgd, backward]
 math: true
