@@ -66,13 +66,13 @@ math: true
 * **PyTorch 코드 예시 (PyTorch Code Example):**
 
 ```python
-import torch.nn as nn #
+import torch.nn as nn 
 
-model = nn.Sequential( #
+model = nn.Sequential( 
     nn.Linear(1, 3), # 1개 입력(거리) -> 은닉층 3개 뉴런
     nn.ReLU(),       # 비선형 활성화 함수 적용
     nn.Linear(3, 1)  # 은닉층 3개 출력 -> 최종 출력 1개(배달 시간)
-) #
+) 
 ```
 
 * **Layer 상세 분석 (Layer Breakdown):**
@@ -85,13 +85,13 @@ model = nn.Sequential( #
 * **PyTorch Code Example:**
 
 ```python
-import torch.nn as nn #
+import torch.nn as nn 
 
-model = nn.Sequential( #
+model = nn.Sequential( 
     nn.Linear(1, 3), # 1 input feature (distance) -> 3 hidden neurons
     nn.ReLU(),       # Apply nonlinear activation function
     nn.Linear(3, 1)  # 3 hidden outputs -> 1 final output (delivery time)
-) #
+) 
 ```
 
 * **Layer Breakdown:**
